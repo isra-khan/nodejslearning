@@ -1,4 +1,4 @@
 
-const add=require('./modules.js');
+const addition=require('./modules.js');
 
-console.log(add.add(2,3));
+console.log(addition.add(2,3));
