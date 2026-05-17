@@ -1,4 +1,7 @@
 const http=require('http');
+const url = require('url');
+const parsedUrl = url.parse(req.url,true);
+parsedUrl.query.myName; // This will give you an object containing the query parameters
 
 
 const myServer=http.createServer((req,resp)=>{
